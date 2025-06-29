@@ -1,1 +1,1 @@
-print("hello git,this is essential session !!");
+print("hello git,this is essential session !!")
