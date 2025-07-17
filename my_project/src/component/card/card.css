@@ -1,0 +1,35 @@
+.card {
+  background-color: #f5fff1;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+.like-section {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.like-section button {
+  padding: 5px 10px;
+  background-color: #d4ffd4;
+  border: 1px solid #b2ffb2;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.like-section span {
+  font-size: 14px;
+  color: #444;
+}

@@ -1,0 +1,47 @@
+body{
+    margin:0;
+    padding:0;
+}
+h1{
+    margin:2rem;
+    text-align: center;
+    background-color:blue;
+    border-radius: 20 25 30 15;
+    line-height: 4rem;
+    color: #fff;
+  
+}
+.calender{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+tr{
+    background-color: aquamarine;
+    line-height: 3rem;
+    width: 2rem;
+    border-radius: 2rem;
+}
+th{
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 1rem;
+}
+td{
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 1rem;
+}
+th:hover{
+    padding: 25px;
+    background-color: cornflowerblue;
+    border-color: crimson;
+    border-radius: 1rem;
+}
+td:hover{
+    padding: 15px;
+    background-color: rgb(225, 237, 100);
+    border-color: black;
+}
